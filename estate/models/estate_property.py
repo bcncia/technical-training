@@ -33,5 +33,5 @@ class EstateProperty(models.Model):
     user_id = fields.Many2one('res.users', string='Salesperson', index=True, tracking=True, default=lambda self: self.env.user)
     partner_id = fields.Many2one("res.partner", string="Buyer")
     property_type_id= fields.Many2one("estate.property.type", string="Property Type")
-    tag_ids = fields.Many2many("account.tax", string="Taxes")
+    tag_ids = fields.Many2many("estate.property.tag", string="Tags")
     
