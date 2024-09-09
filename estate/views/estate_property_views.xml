@@ -31,12 +31,22 @@
                 <sheet>
                     <group>
                         <group>
+                             <div class="oe_title">
+                                 <field name="name" class="mb16"/>
+                             </div>
+                        </group>
+                        <group>
                             <field name="postcode"/>
                         </group>
                         <group>
                             <field name="date_availability"/>
                         </group>
                     </group>
+                    <notebook>
+                        <page string="Description">
+                            <field name="description"/>
+                        </page>
+                    </notebook>
                 </sheet>
             </form>
         </field>
