@@ -61,11 +61,11 @@
         </field>
     </record>
 
-        <record id="estate_property_view_tree" model="ir.ui.view">
-        <field name="name">estate.property.tree</field>
+    <record id="estate_property_view_search" model="ir.ui.view">
+        <field name="name">estate.property.search</field>
         <field name="model">estate.property</field>
         <field name="arch" type="xml">
-            <search string="Tests">
+            <search string="Search">
                 <field name="name"/>
                 <field name="postcode"/>
                 <field name="expected_price"/>
