@@ -60,4 +60,25 @@
             </form>
         </field>
     </record>
+
+        <record id="estate_property_view_tree" model="ir.ui.view">
+        <field name="name">estate.property.tree</field>
+        <field name="model">estate.property</field>
+        <field name="arch" type="xml">
+
+            <search string="Tests">
+                <field name="name"/>
+                <field name="last_seen"/>
+            </search>
+            <tree string="Estate custom view">
+                <field name="name"/>
+                <field name="postcode"/>
+                <field name="expected_price"/>
+                <field name="bedrooms"/>
+                <field name="living_area"/>
+                <field name="facades"/>
+            </tree>
+        </field>
+    </record>
+    
 </odoo>
