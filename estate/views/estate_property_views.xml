@@ -58,7 +58,6 @@
                             <field name="date_availability"/>
                             <field name="selling_price"/>
                         </group>
-                    </group>
                     <notebook>
                         <page string="Description">
                             <group>
