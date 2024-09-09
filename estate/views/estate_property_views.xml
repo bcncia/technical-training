@@ -31,9 +31,24 @@
                 <sheet>
                     <group>
                         <group>
-                             <div class="oe_title">
-                                 <field name="name" class="mb16"/>
-                             </div>
+                                <div>
+                                    <label for="name"/>
+                                </div>
+                                <h1 class="mb32">
+                                    <field name="name"/>
+                                </h1>
+                        </group>
+                            
+                        <group>
+                            <div class="oe_title">
+                                <div class="oe_create_only">
+                                    <label for="name"/>
+                                </div>
+                                 <div class="oe_title">
+                                     <field name="name" class="mb16"/>
+                                 </div>
+                            </div>
+                             
                         </group>
                         <group>
                             <field name="postcode"/>
@@ -45,7 +60,7 @@
                     <notebook>
                         <page string="Description">
                             <group>
-                                <div class="oe_edit_only">
+                                <div>
                                     <label for="description"/>
                                 </div>
                                 <h1 class="mb32">
