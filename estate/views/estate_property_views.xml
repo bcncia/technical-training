@@ -20,6 +20,7 @@
                 <field name="expected_price"/>
                 <field name="selling_price"/>
                 <field name="date_availability"/>
+                <field name="tag_ids" widget="many2many_tags"/>
             </tree>
         </field>
     </record>
@@ -33,6 +34,7 @@
                 <h1>
                     <field name="name" placeholder="Name"/>
                 </h1>
+                    <field name="tag_ids" widget="many2many_tags"/>
                 <group>
                     <group>
                         <field name="property_type_id"/>
