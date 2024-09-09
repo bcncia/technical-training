@@ -37,7 +37,7 @@
                             <h1 class="mb32">
                                 <field name="name"/>
                             </h1>
-                        <div>
+                        </div>
                             
                         <!-- <group>
                             <div class="oe_title">
