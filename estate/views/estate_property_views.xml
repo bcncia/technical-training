@@ -44,8 +44,8 @@
                 </group>
                 <notebook>
                     <page string="Description">
-                        <field name="description"/>
                         <group>
+                            <field name="description"/>
                             <field name="bedrooms"/>
                             <field name="living_area"/>
                             <field name="facades"/>
