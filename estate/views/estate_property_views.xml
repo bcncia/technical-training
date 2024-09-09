@@ -30,14 +30,14 @@
             <form string="Properties">
                 <sheet>
                     <group>
-                        
-                                <div class="oe_title">
-                                    <label for="name"/>
-                                </div>
-                                <h1 class="mb32">
-                                    <field name="name"/>
-                                </h1>
-                        
+                        <div class="oe_title">
+                            <div >
+                                <label for="name"/>
+                            </div>
+                            <h1 class="mb32">
+                                <field name="name"/>
+                            </h1>
+                        <div>
                             
                         <!-- <group>
                             <div class="oe_title">
@@ -64,18 +64,27 @@
                             <group>
                                 <div>
                                     <label for="description"/>
+                                </div>
+                                <div>
                                     <field name="description"/>
                                 </div>
+                            </group>
+                            <group>
                                 <div>
                                     <label for="bedrooms"/>
-                                    <field name="bedrooms"/>
                                 </div>
                                 <div>
+                                    <field name="bedrooms"/>
+                                </div>
+                            </group>
+                            <group>
+                                <div>
                                     <label for="living_area"/>
+                                </div>
+                                <div>
                                     <field name="living_area"/>
                                 </div>
                             </group>
-                            
                         </page>
                     </notebook>
                 </sheet>
