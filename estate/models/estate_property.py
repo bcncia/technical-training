@@ -30,4 +30,5 @@ class EstateProperty(models.Model):
         help = "State of the estate",
         required=True, copy=False, default="New"
     )
-    
+    user_id = fields.Many2one('res.users', string='Salesperson', index=True, tracking=True, default=lambda self: self.env.user)
+    partner_id = fields.Many2one("res.partner", string="Buyer")
