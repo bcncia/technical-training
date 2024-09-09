@@ -44,7 +44,15 @@
                     </group>
                     <notebook>
                         <page string="Description">
-                            <field name="description"/>
+                            <group>
+                                <div class="oe_edit_only">
+                                    <label for="description"/>
+                                </div>
+                                <h1 class="mb32">
+                                    <field name="description"/>
+                                </h1>
+                            </group>
+                            
                         </page>
                     </notebook>
                 </sheet>
