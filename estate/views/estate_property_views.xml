@@ -56,14 +56,12 @@
                         <group>
                                  <div>
                                     <label for="postcode"/>
-                                </div>
-                                <div>
+                               
                                     <field name="postcode"/>
                                 </div>
                                  <div>
                                     <label for="expected_price"/>
-                                </div>
-                                <div>
+                                
                                     <field name="expected_price"/>
                                 </div>
                         </group>
@@ -109,6 +107,47 @@
                                 </div>
                                 <div>
                                     <field name="living_area"/>
+                                </div>
+                            </group>
+                            <group>
+                                <div>
+                                    <label for="facades"/>
+                                </div>
+                                <div>
+                                    <field name="facades"/>
+                                </div>
+                            </group>
+                            </group>
+                            <group>
+                                <div>
+                                    <label for="garage"/>
+                                </div>
+                                <div>
+                                    <field name="garage"/>
+                                </div>
+                            </group>
+                            <group>
+                                <div>
+                                    <label for="garden"/>
+                                </div>
+                                <div>
+                                    <field name="garden"/>
+                                </div>
+                            </group>
+                            <group>
+                                <div>
+                                    <label for="garden_area"/>
+                                </div>
+                                <div>
+                                    <field name="garden_area"/>
+                                </div>
+                            </group>
+                            <group>
+                                <div>
+                                    <label for="garden_orientation"/>
+                                </div>
+                                <div>
+                                    <field name="garden_orientation"/>
                                 </div>
                             </group>
                         </page>
