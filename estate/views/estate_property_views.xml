@@ -54,22 +54,18 @@
                              
                         </group> -->
                         <group>
-                            <div>
                                  <div>
                                     <label for="postcode"/>
                                 </div>
                                 <div>
                                     <field name="postcode"/>
                                 </div>
-                            </div>
-                            <div>
                                  <div>
                                     <label for="expected_price"/>
                                 </div>
                                 <div>
                                     <field name="expected_price"/>
                                 </div>
-                            </div>
                         </group>
                         <group>
                             <div>
