@@ -49,8 +49,6 @@
                             <field name="bedrooms"/>
                             <field name="living_area"/>
                             <field name="facades"/>
-                        </group>
-                        <group>
                             <field name="garage"/>
                             <field name="garden"/>
                             <field name="garden_area"/>
