@@ -30,14 +30,14 @@
             <form string="Properties">
                 <sheet>
                     <group>
-                        <group>
+                        
                                 <div class="oe_title">
                                     <label for="name"/>
                                 </div>
                                 <h1 class="mb32">
                                     <field name="name"/>
                                 </h1>
-                        </group>
+                        
                             
                         <!-- <group>
                             <div class="oe_title">
@@ -64,10 +64,16 @@
                             <group>
                                 <div>
                                     <label for="description"/>
-                                </div>
-                                <h1 class="mb32">
                                     <field name="description"/>
-                                </h1>
+                                </div>
+                                <div>
+                                    <label for="bedrooms"/>
+                                    <field name="bedrooms"/>
+                                </div>
+                                <div>
+                                    <label for="living_area"/>
+                                    <field name="living_area"/>
+                                </div>
                             </group>
                             
                         </page>
