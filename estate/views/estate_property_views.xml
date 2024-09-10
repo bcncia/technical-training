@@ -54,6 +54,7 @@
                     </group>
                     <group>
                         <field name="selling_price"/>
+                        <field name="state"/>
                     </group>
                 </group>
                 <notebook>
