@@ -38,7 +38,7 @@ class EstateProperty(models.Model):
     total_area = fields.Integer(string="Total Area", compute="_total_area")
 
     @api.depends('living_area','garden_area')
-    def _total_area(self)
+    def _total_area(self):
         for record in self:
             record.total_area = record.living_area+record.garden_area
 
