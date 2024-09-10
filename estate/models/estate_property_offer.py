@@ -8,7 +8,7 @@ class EstatePropertyOffer(models.Model):
     status = fields.Selection(
         string='State',
         selection=[('Accepted', 'Accepted'), ('Refused', 'Refused')],
-        copy=False, default="New"
+        copy=False
     )
     partner_id= fields.Many2one("res.partner", string="Partner",required=True)
     property_id= fields.Many2one("estate.property", string="Property",required=True)
