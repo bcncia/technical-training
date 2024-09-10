@@ -31,4 +31,3 @@ class EstatePropertyOffer(models.Model):
              else:    
                 record.validity = abs((record.date_deadline - record.create_date.date()).days)
             
-            
